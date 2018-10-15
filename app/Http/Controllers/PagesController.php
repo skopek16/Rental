@@ -19,9 +19,9 @@ class PagesController extends Controller
     {
         return view('pages.contact');
     }
-        public function getMain() 
+        public function getpotList() 
     {
-        return view('pages.main');
+        return view('pages.potList');
     }
 
 }

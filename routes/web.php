@@ -14,7 +14,7 @@ Route::get('contact', 'PagesController@getContact');
 
 Route::get('about', 'PagesController@getAbout');
 
-Route::get('main', 'PagesController@getMain');
+Route::get('potList', 'PagesController@getpotList');
 
 
 Route::get('/', 'PagesController@getIndex');

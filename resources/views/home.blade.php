@@ -15,7 +15,7 @@
                     @endif
 
                     You are logged in!
-                    <a href="/main" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"  style="float: right;">OK</a>
+                    <a href="/potList" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"  style="float: right;">OK</a>
                 </div>
             </div>
         </div>
