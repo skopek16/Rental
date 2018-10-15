@@ -6,18 +6,22 @@ class PagesController extends Controller
 {
     public function getIndex() 
     {
-
+       return view('pages.welcome');
     }
 
     public function getAbout() 
     {
 
+       return view('pages.about');
     }                                                                       
 
     public function getContact() 
     {
-
+        return view('pages.contact');
+    }
+        public function getMain() 
+    {
+        return view('pages.main');
     }
 
-    
 }

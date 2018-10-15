@@ -79,9 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <p>About us !!</p>
+                   About !
                 </div>
-
+                     <p>something</p>
 
             </div>
         </div>

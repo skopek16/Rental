@@ -10,18 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('contact', function () {
-    return view('contact');
-});
+Route::get('contact', 'PagesController@getContact');
 
-Route::get('about', function () {
-    return view('about');
-});
+Route::get('about', 'PagesController@getAbout');
+
+Route::get('main', 'PagesController@getMain');
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@getIndex');
 
 
 Auth::routes();
