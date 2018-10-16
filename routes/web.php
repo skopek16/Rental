@@ -16,8 +16,11 @@ Route::get('about', 'PagesController@getAbout');
 
 Route::get('potList', 'PagesController@getpotList');
 
+Route::get('userRentedPots', 'PagesController@getuserRentedPots');
 
 Route::get('/', 'PagesController@getIndex');
+
+Route::resource('pots','PostController');
 
 
 Auth::routes();

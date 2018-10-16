@@ -16,6 +16,7 @@ class CreatePotsTable extends Migration
         Schema::create('pots', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->text('body');
             $table->timestamps();
         });
     }

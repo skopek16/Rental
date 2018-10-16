@@ -1,5 +1,5 @@
 @extends('mainUserPanel')
 
 @section('content')
- contet
+pot list 
 @endsection

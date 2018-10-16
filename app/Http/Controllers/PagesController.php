@@ -23,5 +23,10 @@ class PagesController extends Controller
     {
         return view('pages.potList');
     }
+    public function getuserRentedPots() 
+    {
+
+       return view('pages.userRentedPots');
+    }
 
 }
