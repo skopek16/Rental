@@ -2,7 +2,8 @@
   <body>
 @include('partials._navbar')
 
-        <div class="container">
+        <div class="container" >
+            @include('partials._messages')
                 @yield('content')
         </div>
     <!-- Optional JavaScript -->

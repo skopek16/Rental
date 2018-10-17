@@ -12,11 +12,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                                      <li class="nav-item active">
-                <a class="nav-link" href="/potList">Pot List </a>
-              </li>
-              <li class="nav-item">
+
+              <li class="nav-item active">
                 <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/pots">all pots</a>
               </li>
 
                     </ul>

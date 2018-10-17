@@ -18,6 +18,9 @@ class CreatePotsTable extends Migration
             $table->string('name');
             $table->text('body');
             $table->timestamps();
+            $table->string('filename')->nullable();
+            $table->string('mime')->nullable();
+            $table->string('original_filename')->nullable();
         });
     }
 
